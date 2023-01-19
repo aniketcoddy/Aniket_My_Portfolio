@@ -39,7 +39,7 @@ export default function Home() {
             <h1 className="text-[#FFFFFF] font-[Poppins] font-normal text-[15px] w-[116px] shadow-[0px 4px 4px] shadow-[rgb(0 0 0 / 0.25)]">
               Download CV
             </h1>
-            <img
+            <img  alt=""
               src="download (1).png"
               className="w-[26px] h-[25px] drop-shadow-[0px 4px 4px rgb(0 0 0 / 0.25)] left-[-5px] top-[1px] relative"
             />
@@ -48,11 +48,11 @@ export default function Home() {
       </div>
 
       <div className="top-[142px]  right-[12px] mr-0 relative">
-        <img
+        <img  alt=""
           src="back.png"
           className="w-[712px] h-[563px] top-[-56px] relative right-[94px]"
         />
-        <img
+        <img  alt=""
           src="me.png.jpg"
           className="w-[303px] h-[414px] rounded-[2.75rem] relative top-[-549px]"
         />

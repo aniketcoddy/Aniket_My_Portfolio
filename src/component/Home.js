@@ -1,8 +1,17 @@
 import React from "react";
 
 export default function Home() {
+
+  const myStyle={
+    backgroundImage: "url(/Projects.png)",
+    height:'100vh',
+    marginTop:'-70px',
+    fontSize:'50px',
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+};
   return (
-    <div className="flex  flex-row absolute w-[1536px] h-[688px]  top-[65px] gap-[300px]">
+    <div className="flex  flex-row absolute w-[1536px] h-[688px]  top-[65px] gap-[300px]" style={myStyle}>
       <div className="flex flex-col left-[182px] top-[220px] gap-[30px] relative">
         <div className="flex flex-col relative">
           <h1 className="text-[#EEEEEE] w-[706px] h-[92px] font-[Poppins] font-bold text-[85px] leading-[96px]">
@@ -48,13 +57,10 @@ export default function Home() {
       </div>
 
       <div className="top-[142px]  right-[12px] mr-0 relative">
-        <img  alt=""
-          src="back.png"
-          className="w-[712px] h-[563px] top-[-56px] relative right-[94px]"
-        />
+
         <img  alt=""
           src="me.png.jpg"
-          className="w-[303px] h-[414px] rounded-[2.75rem] relative top-[-549px]"
+          className="w-[303px] h-[414px] rounded-[2.75rem] relative top-[34px]"
         />
       </div>
     </div>

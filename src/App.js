@@ -3,6 +3,8 @@ import './App.css';
 import About from './component/About';
 import Home from './component/Home';
 import Navbar from './component/Navbar';
+import MyProject from './component/MyProject';
+
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
       <Navbar/>
       <Home/>
       <About/>
+      <MyProject/>
     </div>
   );
 }

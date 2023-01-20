@@ -11,13 +11,14 @@ export default function Contact() {
   };
 
   return (
+    <div>
     <div
       className="top-[3135px] absolute w-[1535px] h-[500px] "
       style={myStyle}
     >
 
-      <div>
-        <div className="flex flex-row gap-[20px] top-[86px] left-[162px] absolute">
+      <div >
+        <div className="flex flex-row gap-[20px] top-[86px] left-[162px] absolute" id="contacts">
           <h1 className='font-[Poppins] text-[60px] text-[#EEEEEE] font-bold'>Contact</h1>
           <h1 className='font-[Poppins] text-[60px] text-[#00ADB5] font-bold'>Me</h1>
         </div>
@@ -89,6 +90,7 @@ export default function Contact() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

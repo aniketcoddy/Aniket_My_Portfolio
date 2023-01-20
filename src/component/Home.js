@@ -1,7 +1,8 @@
 import React from "react";
-
+import CV from "../Aniket_Vishnoi (React Developer).pdf"
 export default function Home() {
 
+ 
   const myStyle={
     backgroundImage: "url(/Projects.png)",
     height:'90vh',
@@ -11,7 +12,7 @@ export default function Home() {
     backgroundRepeat: 'no-repeat',
 };
   return (
-    <div className="flex  flex-row absolute w-[1536px]   top-[138px] gap-[300px]" style={myStyle}>
+    <div className="flex  flex-row absolute w-[1536px]   top-[138px] gap-[300px]" style={myStyle} id="Home">
       <div className="flex flex-col left-[182px] top-[220px] gap-[30px] relative">
         <div className="flex flex-col relative">
           <h1 className="text-[#EEEEEE] w-[706px] h-[92px] font-[Poppins] font-bold text-[85px] leading-[96px]">
@@ -35,17 +36,16 @@ export default function Home() {
         <div className="relative flex gap-[50px] flex-row">
           <a
             href="/"
-            className="flex flex-row items-center pt-[1px] pl-[22px] w-[109px] h-[39px] bg-[#00ADB5] rounded-[24px]  relative"
+            className="flex flex-row items-center pt-[1px] pl-[22px] w-[109px] h-[39px] bg-[#00ADB5] rounded-[24px]  relative hover:bg-[#3b7477] "
           >
             <h1 className="text-[#FFFFFF] font-[Poppins] font-normal text-[17px] shadow-[0px 4px 4px rgb(0 0 0 / 0.25)]">
               Hire Me
             </h1>
           </a>
           <a
-            href="/"
-            className="flex flex-row items-center pt-[1px] pl-[20px] w-[180px] h-[39px] bg-[#393E46] rounded-[24px] relative "
-          >
-            <h1 className="text-[#FFFFFF] font-[Poppins] font-normal text-[15px] w-[116px] shadow-[0px 4px 4px] shadow-[rgb(0 0 0 / 0.25)]">
+            href={CV} download
+            className="flex flex-row items-center pt-[1px] pl-[20px] w-[180px] h-[39px] bg-[#393E46] rounded-[24px] relative hover:bg-[#101b2f]"
+          ><h1 className="text-[#FFFFFF] font-[Poppins] font-normal text-[15px] w-[116px] shadow-[0px 4px 4px] shadow-[rgb(0 0 0 / 0.25)] ">
               Download CV
             </h1>
             <img  alt=""

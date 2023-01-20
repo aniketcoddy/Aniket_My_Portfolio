@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className=" top-[849px] absolute h-[601px] w-[1528px] gap-[36px] flex flex-row">
+    <div className=" top-[849px] absolute h-[601px] w-[1528px] gap-[36px] flex flex-row" id="About">
       <div className=" absolute h-[500px] gap-[36px] flex flex-col left-[102px] top-[11px]">
         <div className="flex flex-row gap-[15px]">
           <h1 className="absolute w-[322px] h-[96px] text-[#EEEEEE] left-[96px] top-[26px] font-[Poppins] font-bold text-[64px] leading-[96px] ">
@@ -30,7 +30,7 @@ export default function About() {
             </h1>
           </div>
           <div className="flex flex-row top-[381px] left-[100px] relative gap-[10px]">
-            <img  alt=""src="React-icon.svg.png" className="w-[42px] h-[42px]" />
+            <img  alt=""src="React-icon.svg.png" className="w-[42px] h-[42px]"/>
             <img  alt=""src="redux.png" className="w-[42px] h-[42px]" />
             <img  alt=""src="Git.png" className="w-[42px] h-[42px]" />
             <img  alt=""src="JS.png" className="w-[42px] h-[42px]" />

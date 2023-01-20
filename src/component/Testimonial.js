@@ -4,7 +4,7 @@ export default function Testimonial() {
 
   
   return (
-    <div className='top-[1727px] h-[576px] relative flex flex-row'>
+    <div className='top-[1800px] h-[576px] relative flex flex-row'>
       
        <img src="testimonial.png" className='w-[1032px] left-[120px] top-[30px] h-[546px] relative' />
        <div className='top-[377px] left-[-145px] gap-[22px] font-bold flex relative'>

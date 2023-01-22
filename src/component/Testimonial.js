@@ -1,7 +1,10 @@
 import React from "react";
 import TestCards from "./TestCards";
 export default function Testimonial() {
+
+  
   return (
+    
     
       <div className="top-[1800px] h-[576px] relative flex flex-row"  id="Testimonials">
         <img
@@ -13,14 +16,13 @@ export default function Testimonial() {
             Client
           </h1>
           <h1 className="font-[Poppins] text-[60px] text-[#00ADB5] font-bold">
-            {" "}
             Testimonials
           </h1>
         </div>
-
-        <div>
-          <TestCards />
+        <div className=" w-[439px] h-[194px] top-[48px] right-[1282px] relative rounded-[20px]">
+        <TestCards />
         </div>
+          
       </div>
    
   );

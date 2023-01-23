@@ -46,8 +46,8 @@ export default function Navbar() {
         </Link>
       </ul>
      <Link
-        to="contacts"
-        className="flex flex-row items-center pt-[10px] pl-[20px] w-[109px] h-[39px] bg-[#00ADB5] rounded-[24px] left-[615px] top-[0px] relative hover:bg-[#3b7477] cursor-pointer" onClick={()=>{setSection(0)}} spy={true} smooth={true} offset={-130} duration={700}
+        to="Social"
+        className="flex flex-row items-center pt-[10px] pl-[20px] w-[109px] h-[39px] bg-[#00ADB5] rounded-[24px] left-[615px] top-[0px] relative hover:bg-[#3b7477] cursor-pointer" onClick={()=>{setSection(0)}} spy={true} smooth={true} offset={130} duration={700}
       >
         <h2 className="text-[#FFFFFF] text-[18px]  w-[90px] h-[27px]   font-[Roboto] absolute font-normal text-center top-[7px] left-[8px]">
           Lets Talk

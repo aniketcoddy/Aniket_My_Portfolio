@@ -5,19 +5,15 @@ import Carousel from "better-react-carousel";
 export default function MyProject() {
   const myStyle = {
     backgroundImage: "url(/Projects.png)",
-    height: "100vh",
-    marginTop: "-70px",
+  
     fontSize: "50px",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     position: "relative",
   };
 
-  const style = {
-    top: " 111px",
-    width: "1407px",
-    height: " 499px",
-  };
+
+
 
   const MyDot = ({ isActive }) => (
     <span
@@ -35,86 +31,29 @@ export default function MyProject() {
   
 
   return (
-    <div className="top-[1637px] relative " style={myStyle} id="Projects">
-      <div className="flex flex-row gap-[20px] top-[0px] left-[43px] absolute ">
-        <h1 className="font-[Poppins] text-[60px] text-[#EEEEEE] font-bold">
+    <div className="lg:top-[1637px] w-[360px] lg:w-[1530px] mt-[170px] h-fit" style={myStyle} id="Projects">
+      <div className="flex flex-row gap-[20px] pt-[34px] top-[0px] left-[43px] absolute ">
+        <h1 className="font-[Poppins] text-[48px] text-[#EEEEEE] font-bold">
           My
         </h1>
-        <h1 className="font-[Poppins] text-[60px] text-[#00ADB5] font-bold">
+        <h1 className="font-[Poppins] text-[48px] text-[#00ADB5] font-bold">
           Portfolio
         </h1>
       </div>
-      <div style={{top:"86px",position:"relative",width: "1382px"}}>
-        <Carousel cols={2} rows={2} dot={MyDot} showDots={true}>
-          <Carousel.Item>
+
+
+      <div className="lg:hidden mt-[150px] pt-[124px] pb-[10px]">
             <ProjectCard />
-          </Carousel.Item>
-          <Carousel.Item>
             <ProjectCard />
-          </Carousel.Item>
-          <Carousel.Item>
             <ProjectCard />
-          </Carousel.Item>
-          <Carousel.Item>
             <ProjectCard />
-          </Carousel.Item>
-          <Carousel.Item>
             <ProjectCard />
-          </Carousel.Item>
-          <Carousel.Item>
             <ProjectCard />
-          </Carousel.Item>
-          <Carousel.Item>
             <ProjectCard />
-          </Carousel.Item>
-          <Carousel.Item>
-            <ProjectCard />
-          </Carousel.Item>
-          <Carousel.Item>
-            <ProjectCard />
-          </Carousel.Item>
-          <Carousel.Item>
-            <ProjectCard />
-          </Carousel.Item>
-          <Carousel.Item>
-            <ProjectCard />
-          </Carousel.Item>
-          <Carousel.Item>
-            <ProjectCard />
-          </Carousel.Item>
-          <Carousel.Item>
-            <ProjectCard />
-          </Carousel.Item>
-          <Carousel.Item>
-            <ProjectCard />
-          </Carousel.Item>
-          <Carousel.Item>
-            <ProjectCard />
-          </Carousel.Item>
-          <Carousel.Item>
-            <ProjectCard />
-          </Carousel.Item>
-          <Carousel.Item>
-            <ProjectCard />
-          </Carousel.Item>
-          <Carousel.Item>
-            <ProjectCard />
-          </Carousel.Item>
-          <Carousel.Item>
-            <ProjectCard />
-          </Carousel.Item>
-          <Carousel.Item>
-            <ProjectCard />
-          </Carousel.Item>
-          <Carousel.Item>
-            <ProjectCard />
-          </Carousel.Item>
-          <Carousel.Item>
-            <ProjectCard />
-          </Carousel.Item>
-          <Carousel.Item>
-            <ProjectCard />
-          </Carousel.Item>
+      </div>
+     
+      <div className="hidden lg:block t-[86px] relative w-[1382px]">
+        <Carousel cols={2} rows={2} dot={MyDot} showDots={true} >
           <Carousel.Item>
             <ProjectCard />
           </Carousel.Item>
@@ -129,6 +68,7 @@ export default function MyProject() {
           </Carousel.Item>
         </Carousel>
       </div>
+      
     </div>
   );
 }

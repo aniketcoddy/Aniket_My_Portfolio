@@ -4,7 +4,7 @@ export default function Contact() {
   const myStyle = {
     backgroundImage: "url(/Projects.png)",
     height: "100vh",
-    marginTop: "-70px",
+    marginTop: "-29px",
 
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
@@ -33,31 +33,31 @@ export default function Contact() {
   return (
     <div>
       <div
-        className="top-[3135px] absolute w-[1535px] h-[500px] "
+        className=" w-[1535px] h-[500px] "
         style={myStyle}
       >
         <div>
           <div
-            className="flex flex-row gap-[20px] top-[86px] left-[162px] absolute"
+            className="flex flex-row gap-[20px] "
             id="contacts"
           >
-            <h1 className="font-[Poppins] text-[60px] text-[#EEEEEE] font-bold">
+            <h1 className="font-[Poppins] mt-[57px] ml-[51px] text-[60px] text-[#EEEEEE] font-bold">
               Contact
             </h1>
-            <h1 className="font-[Poppins] text-[60px] text-[#00ADB5] font-bold">
+            <h1 className="font-[Poppins] mt-[57px]   text-[60px] text-[#00ADB5] font-bold">
               Me
             </h1>
           </div>
           <div>
             <img
               src="Group 2372.png"
-              className="top-[305px] left-[255px] relative"
+              className="mt-[72px] w-[310px] ml-[232px]"
             />
           </div>
         </div>
         <div>
           <form ref={form} onSubmit={sendEmail}>
-            <div className="top-[76px] left-[843px] absolute w-[549px] h-[300px]  gap-[20px] flex flex-col">
+            <div className=" w-[549px] h-[300px] mt-[-510px] ml-[835px] gap-[20px] flex flex-col">
               <div className="flex flex-row gap-[20px]">
                 <div className="gap-[10px] flex flex-col">
                   <h1 className="w-[102px] h-[27px] font-[Poppins] font-normal text-[15px] leading-[27px] text-[#EEEEEE]">
@@ -99,14 +99,14 @@ export default function Contact() {
               </div>
 
               <div>
-                <input type="submit" value="send" className="relative w-[107px] text-[#EEEEEE] font-medium font-[Poppins] shadow-[0px 4px 4px] drop-shadow-[rgba(0 0 0 0.5)] text-[18px] h-[42px] flex flex-col items-center pt-[8px] bg-[#00ADB5] rounded-[24px] pr-[31px] top-[8px] left-[4px]  gap-[10px] hover:bg-[#3b7477] cursor-pointer "
+                <input type="submit" value="send" className=" w-[107px] text-[#EEEEEE] font-medium font-[Poppins] shadow-[0px 4px 4px] drop-shadow-[rgba(0 0 0 0.5)] text-[18px] h-[42px] flex flex-col items-center pt-[8px] bg-[#00ADB5] rounded-[24px] pr-[31px]  gap-[10px] hover:bg-[#3b7477] cursor-pointer "
                 />
                   <img
                     src="send.png"
-                    className="top-[469px] left-[68px]  absolute"
+                    className=" mt-[-33px] ml-[63px]"
                   />
                
-                <div className="flex flex-col top-[530px] left-[10px] absolute gap-[20px]">
+                <div className="flex flex-col  gap-[20px] mt-[34px]">
                   <div className="flex gap-[10px]">
                     <img src="telephone.png" />
                     <a className="text-[#EEEEEE]">(91)-7302918014</a>

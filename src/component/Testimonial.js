@@ -6,12 +6,12 @@ export default function Testimonial() {
   return (
     
     
-      <div className="top-[1800px] h-[576px] relative flex flex-row"  id="Testimonials">
+      <div className=" h-[576px] mt-[141px] ml-[83px] flex flex-row"  id="Testimonials">
         <img
           src="testimonial.png"
-          className="w-[1032px] left-[120px] top-[30px] h-[546px] relative"
+          className="w-[989px]  h-[546px] "
         />
-        <div className="top-[377px] left-[-145px] gap-[22px] font-bold flex relative">
+        <div className=" gap-[22px] mt-[377px] ml-[-167px] font-bold flex ">
           <h1 className="font-[Poppins] text-[60px] text-[#EEEEEE] font-bold">
             Client
           </h1>
@@ -19,7 +19,7 @@ export default function Testimonial() {
             Testimonials
           </h1>
         </div>
-        <div className=" w-[439px] h-[194px] top-[48px] right-[1282px] relative rounded-[20px]">
+        <div className=" w-[439px] h-[194px] mt-[18px] ml-[-1248px] rounded-[20px]">
         <TestCards />
         </div>
           

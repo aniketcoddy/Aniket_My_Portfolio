@@ -12,7 +12,7 @@ import Social from './component/Social';
 
 function App() {
   return (
-    <div className='w-[1536px] h-[3922px] bg-[#1c232d] absolute'>
+    <div>
       <Navbar/>
       <Home/>
       <About/>

@@ -5,10 +5,13 @@ export default function Navbar() {
   const [section , setSection] = useState(0)
 
   const Inactive =
+
     "flex flex-row w-[1536px] h-[67px] left-0 top-0  items-center bg-[#1c232d] sticky shadow-2xl z-10";
   const active =
     "flex flex-row w-[1536px] h-[67px] left-0 top-0  items-center bg-[#1c232d] sticky shadow-2xl shadow-[#00ADB5] z-50";
   const activeButton = "text-[#00ADB5] text-[17px] absolute font-[Poppins] font-normal p-2 rounded-[25px] border-2 border-[#00ADB5] hover:text-[20px] cursor-pointer";
+
+    
   const InactiveButton =
     "text-[#EEEEEE] text-[17px] font-[Poppins] absolute font-normal   hover:text-[20px] cursor-pointer";
 
@@ -23,12 +26,17 @@ export default function Navbar() {
   window.addEventListener("scroll", changeBackground);
 
   return (
+
+    
     <div className={navbar ? active : Inactive}>
+
       <h1 className="text-[#EEEEEE] ml-[48px] text-[28px] items-center ">
         My Porfolio
       </h1>
       <ul className="flex flex-row ml-[59px] mt-[3px] absolute  items-center  ">
        <Link className={section == 1?activeButton:InactiveButton} onClick={()=>{setSection(1)}} to="Home" spy={true} smooth={true} offset={-150} duration={700} style={{marginLeft: "196px"}}>
+
+      
           <li>Home</li>
         </Link>
 
@@ -46,7 +54,7 @@ export default function Navbar() {
           <li>Contact</li>
         </Link>
       </ul>
-     <Link
+      <Link
         to="Social"
         className="flex flex-row items-center pt-[5px] ml-[1160px] pl-[9px] w-[109px] h-[39px] bg-[#00ADB5] rounded-[24px]  top-[0px]  hover:bg-[#3b7477] cursor-pointer" onClick={()=>{setSection(0)}} spy={true} smooth={true} offset={130} duration={700}
       >
@@ -54,6 +62,6 @@ export default function Navbar() {
           Lets Talk
         </h2>
       </Link>
-    </div>
+      </div>
   );
 }

@@ -12,7 +12,7 @@ import Social from './component/Social';
 
 function App() {
   return (
-    <div>
+    <div className='overflow-x-hidden'  >
       <Navbar/>
       <Home/>
       <About/>
